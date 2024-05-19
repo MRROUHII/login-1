@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #038387;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+form {
+    background-color: #00a7ad;
+    border-radius: 3px;
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+form .content {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family:koho;
+    src: url(../../../fonts/koho/KoHo-Medium.ttf);
+}
+
+form .content h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family:koho;
+}
+
+form .content p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: koho;
+}
+
+form .input__control {
+    display: flex;
+    flex-wrap: wrap;
+    gap:  0.8rem;
+}
+form .input__control input {
+    font-family: koho;
+    padding: 16px;
+    flex: 1 0 10rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    outline:none ;
+}
+
+form .input__control button{
+    font-family: koho;
+    color:#fff;
+    flex: 1 0 5rem;
+    padding: 14px 20px;
+    background-color: #038387;
+    border: 1px solid #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: .4s all;
+}
+
+form .input__control button:hover{
+    background-color: #00a7ad;
+    color: black;
+}
